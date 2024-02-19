@@ -1,4 +1,4 @@
-\\ CODE FOR MOBILE CONTROL LIGHT
+// CODE FOR MOBILE CONTROL LIGHT
 char c;
 void setup() {
   // put your setup code here, to run once:
@@ -22,21 +22,22 @@ void loop() {
   }
 }
 
-\\ CODE FOR AUTOMATIC FISH FEEDER
+// CODE FOR AUTOMATIC FISH FEEDER
 #include ‹Servo.h>
-Servo servo; void setup
-servo.attach(9) ;
+Servo servo; 
+void setup{
+  servo.attach(9) ;
 ｝
-void loop){
-servo.write(0);
-delay (5000) ;
-servo.write (180);
-de lay (2000) ;
+void loop{
+  servo.write(0);
+  delay (5000) ;
+  servo.write (180);
+  delay (2000) ;
 //12 hrs = 43200000
 //6 hrs = 21600000
+}
 
-
-\\ CODE FOR MOBILE CONTROL WATER CHANGER
+// CODE FOR MOBILE CONTROL WATER CHANGER
 char c;
 void setup() {
   // put your setup code here, to run once:
